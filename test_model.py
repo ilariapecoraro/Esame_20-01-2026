@@ -3,6 +3,8 @@ import networkx as nx
 from model.model import Model
 
 my_model = Model()
+my_model.load_artists_with_min_albums(4)
+my_model.build_graph(4)
 
 # DE-COMMENTARE E ADATTARE I NOMI DELLE FUNZIONI
 # A QUELLE EFFETTIVAMENTE SCRITTE DURANTE L'ESAME
